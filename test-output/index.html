@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit">
+              <span class="suite-name border-passed">freeTour Application Automation Test Suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-freeTour_Application_Automation_Test_Suit">
+                    <span>C:\Users\FourStar1\workspace\freeTrourAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-freeTour_Application_Automation_Test_Suit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-freeTour_Application_Automation_Test_Suit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-freeTour_Application_Automation_Test_Suit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-freeTour_Application_Automation_Test_Suit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-freeTour_Application_Automation_Test_Suit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-freeTour_Application_Automation_Test_Suit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-freeTour_Application_Automation_Test_Suit" class="hide-methods passed suite-freeTour_Application_Automation_Test_Suit"> (hide)</a> <!-- hide-methods passed suite-freeTour_Application_Automation_Test_Suit -->
+                      <a href="#" panel-name="suite-freeTour_Application_Automation_Test_Suit" class="show-methods passed suite-freeTour_Application_Automation_Test_Suit"> (show)</a> <!-- show-methods passed suite-freeTour_Application_Automation_Test_Suit -->
+                    </span>
+                    <div class="method-list-content passed suite-freeTour_Application_Automation_Test_Suit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.FlightsPageTest" hash-for-method="clickOnHomePageLink">clickOnHomePageLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.HomePageTest" hash-for-method="clickOnRegistrationPageLink">clickOnRegistrationPageLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.RegistrationPageTest" hash-for-method="completeRegistrationPage(Dave, Pair, 703-765-9876, Dp@yahoo.com, 123Adms St, Lorton, VA, 22079.0)">completeRegistrationPage(Dave, Pair, 703-765-9876, Dp@yahoo.com, 123Adms St, Lorton, VA, 22079.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.RegistrationPageTest" hash-for-method="completeRegistrationPage(Mark, Green, 202-987-9087, MG@google.com, 7901 ABC st, Springfield, VA, 22153.0)">completeRegistrationPage(Mark, Green, 202-987-9087, MG@google.com, 7901 ABC st, Springfield, VA, 22153.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.RegistrationPageTest" hash-for-method="completeRegistrationPage(John, Walker, 301-890-5674, JW@mail.com, 980 BreakTown, Burke, VA, 22053.0)">completeRegistrationPage(John, Walker, 301-890-5674, JW@mail.com, 980 BreakTown, Burke, VA, 22053.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.RegistrationPageTest" hash-for-method="completeRegistrationPage(Jack, Winner, 571-657-8756, Jwinner@aol.com, 95 Nancy ct, newcity, MD, 35092.0)">completeRegistrationPage(Jack, Winner, 571-657-8756, Jwinner@aol.com, 95 Nancy ct, newcity, MD, 35092.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.FlightsPageTest" hash-for-method="verifyFlightsPageTitle">verifyFlightsPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.HomePageTest" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.LoginPageTest" hash-for-method="verifyLoginPage">verifyLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-freeTour_Application_Automation_Test_Suit" title="freeTrourAutomationpagesTests.RegistrationPageTest" hash-for-method="verifyRegistrationPageTitle">verifyRegistrationPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-freeTour_Application_Automation_Test_Suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-freeTour_Application_Automation_Test_Suit" class="panel freeTour_Application_Automation_Test_Suit">
+          <div class="suite-freeTour_Application_Automation_Test_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">freeTrourAutomationpagesTests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnRegistrationPageLink">
+                  </a> <!-- clickOnRegistrationPageLink -->
+                  <span class="method-name">clickOnRegistrationPageLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freeTour_Application_Automation_Test_Suit-class-passed -->
+          <div class="suite-freeTour_Application_Automation_Test_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">freeTrourAutomationpagesTests.RegistrationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeRegistrationPage(Dave, Pair, 703-765-9876, Dp@yahoo.com, 123Adms St, Lorton, VA, 22079.0)">
+                  </a> <!-- completeRegistrationPage(Dave, Pair, 703-765-9876, Dp@yahoo.com, 123Adms St, Lorton, VA, 22079.0) -->
+                  <span class="method-name">completeRegistrationPage</span>
+                  <span class="parameters">(Dave, Pair, 703-765-9876, Dp@yahoo.com, 123Adms St, Lorton, VA, 22079.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeRegistrationPage(Mark, Green, 202-987-9087, MG@google.com, 7901 ABC st, Springfield, VA, 22153.0)">
+                  </a> <!-- completeRegistrationPage(Mark, Green, 202-987-9087, MG@google.com, 7901 ABC st, Springfield, VA, 22153.0) -->
+                  <span class="method-name">completeRegistrationPage</span>
+                  <span class="parameters">(Mark, Green, 202-987-9087, MG@google.com, 7901 ABC st, Springfield, VA, 22153.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeRegistrationPage(John, Walker, 301-890-5674, JW@mail.com, 980 BreakTown, Burke, VA, 22053.0)">
+                  </a> <!-- completeRegistrationPage(John, Walker, 301-890-5674, JW@mail.com, 980 BreakTown, Burke, VA, 22053.0) -->
+                  <span class="method-name">completeRegistrationPage</span>
+                  <span class="parameters">(John, Walker, 301-890-5674, JW@mail.com, 980 BreakTown, Burke, VA, 22053.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeRegistrationPage(Jack, Winner, 571-657-8756, Jwinner@aol.com, 95 Nancy ct, newcity, MD, 35092.0)">
+                  </a> <!-- completeRegistrationPage(Jack, Winner, 571-657-8756, Jwinner@aol.com, 95 Nancy ct, newcity, MD, 35092.0) -->
+                  <span class="method-name">completeRegistrationPage</span>
+                  <span class="parameters">(Jack, Winner, 571-657-8756, Jwinner@aol.com, 95 Nancy ct, newcity, MD, 35092.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageTitle">
+                  </a> <!-- verifyRegistrationPageTitle -->
+                  <span class="method-name">verifyRegistrationPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freeTour_Application_Automation_Test_Suit-class-passed -->
+          <div class="suite-freeTour_Application_Automation_Test_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">freeTrourAutomationpagesTests.FlightsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnHomePageLink">
+                  </a> <!-- clickOnHomePageLink -->
+                  <span class="method-name">clickOnHomePageLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightsPageTitle">
+                  </a> <!-- verifyFlightsPageTitle -->
+                  <span class="method-name">verifyFlightsPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freeTour_Application_Automation_Test_Suit-class-passed -->
+          <div class="suite-freeTour_Application_Automation_Test_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">freeTrourAutomationpagesTests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPage">
+                  </a> <!-- verifyLoginPage -->
+                  <span class="method-name">verifyLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freeTour_Application_Automation_Test_Suit-class-passed -->
+        </div> <!-- panel freeTour_Application_Automation_Test_Suit -->
+        <div panel-name="test-xml-freeTour_Application_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\FourStar1\workspace\freeTrourAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;freeTour Application Automation Test Suit&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExtentRepotListner.ExtentReportListnerNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;free Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;freeTrourAutomationpagesTests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;freeTrourAutomationpagesTests.FlightsPageTest&quot;/&gt;
+      &lt;class name=&quot;freeTrourAutomationpagesTests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;freeTrourAutomationpagesTests.RegistrationPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- free Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- freeTour Application Automation Test Suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-freeTour_Application_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for freeTour Application Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">free Test Cases (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-freeTour_Application_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for freeTour Application Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-freeTour_Application_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for freeTour Application Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_freeTour_Application_Automation_Test_Suit');
+function tableData_freeTour_Application_Automation_Test_Suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'completeRegistrationPage')
+data.setCell(0, 2, 'freeTrourAutomationpagesTests.RegistrationPageTest')
+data.setCell(0, 3, 2404);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'freeTrourAutomationpagesTests.LoginPageTest')
+data.setCell(1, 3, 1944);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'completeRegistrationPage')
+data.setCell(2, 2, 'freeTrourAutomationpagesTests.RegistrationPageTest')
+data.setCell(2, 3, 1643);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'completeRegistrationPage')
+data.setCell(3, 2, 'freeTrourAutomationpagesTests.RegistrationPageTest')
+data.setCell(3, 3, 1629);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'completeRegistrationPage')
+data.setCell(4, 2, 'freeTrourAutomationpagesTests.RegistrationPageTest')
+data.setCell(4, 3, 1582);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickOnRegistrationPageLink')
+data.setCell(5, 2, 'freeTrourAutomationpagesTests.HomePageTest')
+data.setCell(5, 3, 460);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginPage')
+data.setCell(6, 2, 'freeTrourAutomationpagesTests.LoginPageTest')
+data.setCell(6, 3, 18);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyHomePageTitle')
+data.setCell(7, 2, 'freeTrourAutomationpagesTests.HomePageTest')
+data.setCell(7, 3, 10);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyFlightsPageTitle')
+data.setCell(8, 2, 'freeTrourAutomationpagesTests.FlightsPageTest')
+data.setCell(8, 3, 9);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyRegistrationPageTitle')
+data.setCell(9, 2, 'freeTrourAutomationpagesTests.RegistrationPageTest')
+data.setCell(9, 3, 8);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clickOnHomePageLink')
+data.setCell(10, 2, 'freeTrourAutomationpagesTests.FlightsPageTest')
+data.setCell(10, 3, 2);
+window.suiteTableData['freeTour_Application_Automation_Test_Suit']= { tableData: data, tableDiv: 'times-div-freeTour_Application_Automation_Test_Suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-freeTour_Application_Automation_Test_Suit">
+              </div> <!-- times-div-freeTour_Application_Automation_Test_Suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-freeTour_Application_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for freeTour Application Automation Test Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-freeTour_Application_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-freeTour_Application_Automation_Test_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">freeTrourAutomationpagesTests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPage</span>
+                <span class="method-start">6922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">11895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13841 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">freeTrourAutomationpagesTests.FlightsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnHomePageLink</span>
+                <span class="method-start">19225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightsPageTitle</span>
+                <span class="method-start">24385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">freeTrourAutomationpagesTests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">30461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnRegistrationPageLink</span>
+                <span class="method-start">36550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37012 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">freeTrourAutomationpagesTests.RegistrationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageTitle</span>
+                <span class="method-start">43572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completeRegistrationPage(Dave, Pair, 703-765-9876, Dp@yahoo.com, 123Adms St, Lorton, VA, 22079.0)</span>
+                <span class="method-start">51475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completeRegistrationPage(Mark, Green, 202-987-9087, MG@google.com, 7901 ABC st, Springfield, VA, 22153.0)</span>
+                <span class="method-start">59130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61351 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completeRegistrationPage(John, Walker, 301-890-5674, JW@mail.com, 980 BreakTown, Burke, VA, 22053.0)</span>
+                <span class="method-start">66945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68528 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completeRegistrationPage(Jack, Winner, 571-657-8756, Jwinner@aol.com, 95 Nancy ct, newcity, MD, 35092.0)</span>
+                <span class="method-start">75499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77904 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

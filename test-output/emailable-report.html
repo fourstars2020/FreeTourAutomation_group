@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">free Test Cases</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">78.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">free Test Cases &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">freeTrourAutomationpagesTests.LoginPageTest</td><td><a href="#m1"><b>verifyLoginPage</b>  </a></td><td class="numi">1</td><td>1577461070739</td><td class="numi">18</td></tr><tr class="passedodd"><td><a href="#m2"><b>login</b>  </a></td><td class="numi">1</td><td>1577461075712</td><td class="numi">1944</td></tr>
+<tr class="passedeven"><td rowspan="2">freeTrourAutomationpagesTests.FlightsPageTest</td><td><a href="#m3"><b>clickOnHomePageLink</b>  </a></td><td class="numi">1</td><td>1577461083042</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m4"><b>verifyFlightsPageTitle</b>  </a></td><td class="numi">1</td><td>1577461088202</td><td class="numi">9</td></tr>
+<tr class="passedodd"><td rowspan="2">freeTrourAutomationpagesTests.HomePageTest</td><td><a href="#m5"><b>verifyHomePageTitle</b>  </a></td><td class="numi">1</td><td>1577461094278</td><td class="numi">10</td></tr><tr class="passedodd"><td><a href="#m6"><b>clickOnRegistrationPageLink</b>  </a></td><td class="numi">1</td><td>1577461100367</td><td class="numi">460</td></tr>
+<tr class="passedeven"><td rowspan="5">freeTrourAutomationpagesTests.RegistrationPageTest</td><td><a href="#m7"><b>verifyRegistrationPageTitle</b>  </a></td><td class="numi">1</td><td>1577461107389</td><td class="numi">8</td></tr><tr class="passedeven"><td><a href="#m8"><b>completeRegistrationPage</b>  </a></td><td class="numi">4</td><td>1577461115292</td><td class="numi">26428</td></tr><tr class="passedeven"><td><a href="#m9"><b>completeRegistrationPage</b>  </a></td><td class="numi">4</td><td>1577461115292</td><td class="numi">26428</td></tr><tr class="passedeven"><td><a href="#m10"><b>completeRegistrationPage</b>  </a></td><td class="numi">4</td><td>1577461115292</td><td class="numi">26428</td></tr><tr class="passedeven"><td><a href="#m11"><b>completeRegistrationPage</b>  </a></td><td class="numi">4</td><td>1577461115292</td><td class="numi">26428</td></tr>
+</table>
+<h1>free Test Cases</h1>
+<h2 id="m1">freeTrourAutomationpagesTests.HomePageTest:verifyHomePageTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">freeTrourAutomationpagesTests.HomePageTest:clickOnRegistrationPageLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">freeTrourAutomationpagesTests.RegistrationPageTest:completeRegistrationPage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Dave</td>
+<td>Pair</td>
+<td>703-765-9876</td>
+<td>Dp@yahoo.com</td>
+<td>123Adms St</td>
+<td>Lorton</td>
+<td>VA</td>
+<td>22079.0</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">freeTrourAutomationpagesTests.RegistrationPageTest:completeRegistrationPage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Mark</td>
+<td>Green</td>
+<td>202-987-9087</td>
+<td>MG@google.com</td>
+<td>7901 ABC st</td>
+<td>Springfield</td>
+<td>VA</td>
+<td>22153.0</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">freeTrourAutomationpagesTests.FlightsPageTest:clickOnHomePageLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">freeTrourAutomationpagesTests.LoginPageTest:verifyLoginPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">freeTrourAutomationpagesTests.RegistrationPageTest:verifyRegistrationPageTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">freeTrourAutomationpagesTests.LoginPageTest:login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">freeTrourAutomationpagesTests.RegistrationPageTest:completeRegistrationPage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>John</td>
+<td>Walker</td>
+<td>301-890-5674</td>
+<td>JW@mail.com</td>
+<td>980 BreakTown</td>
+<td>Burke</td>
+<td>VA</td>
+<td>22053.0</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">freeTrourAutomationpagesTests.FlightsPageTest:verifyFlightsPageTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">freeTrourAutomationpagesTests.RegistrationPageTest:completeRegistrationPage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Jack</td>
+<td>Winner</td>
+<td>571-657-8756</td>
+<td>Jwinner@aol.com</td>
+<td>95 Nancy ct</td>
+<td>newcity</td>
+<td>MD</td>
+<td>35092.0</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

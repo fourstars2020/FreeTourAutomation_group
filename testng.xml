@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="freeTour Application Automation Test Suit">
+
+<listeners>
+<listener class-name="ExtentRepotListner.ExtentReportListnerNG"/>
+</listeners>
+
+<test name="free Test Cases">
+  <classes>
+    <class name="freeTrourAutomationpagesTests.LoginPageTest"></class>
+    <class name="freeTrourAutomationpagesTests.FlightsPageTest"></class>
+    <class name="freeTrourAutomationpagesTests.HomePageTest"></class>
+    <class name="freeTrourAutomationpagesTests.RegistrationPageTest"></class>
+  </classes>
+</test>
+</suite>
