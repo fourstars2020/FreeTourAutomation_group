@@ -16,8 +16,8 @@ public class TestBase {
 	public TestBase(){
 		 prop = new Properties();
 		 try {
-			FileInputStream fis = new FileInputStream("C:\\Users\\FourStar1\\workspace\\freeTrourAutomation\\src"
-			 										+ "\\main\\java\\com\\freeTour\\qa\\config\\cofig.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\Tarishah\\Documents\\FreeTourAutomation\\FreeTourAutomation_group\\src\\"
+														+ "main\\java\\com\\freeTour\\qa\\config\\cofig.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			
@@ -32,7 +32,7 @@ public class TestBase {
 		
 		prop.getProperty("browser");
 		
-		System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver","C:\\Drivers\\driver79\\chromedriver.exe" );
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(35, TimeUnit.SECONDS);
